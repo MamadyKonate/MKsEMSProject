@@ -21,8 +21,7 @@ name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: github-actions-workflow   # name of your Azure Web App
-  DOTNET_VERSION: '10.0.x'                     # matches net10.0 in app-dotnet.csproj
-																				
+  DOTNET_VERSION: '10.0.x'                     # matches net10.0 in app-dotnet.csproj																				
 
 on:
   push:
